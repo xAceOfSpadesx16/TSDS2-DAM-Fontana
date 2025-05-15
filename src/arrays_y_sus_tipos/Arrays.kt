@@ -62,7 +62,7 @@ fun main() {
     val aprobados = booleanArrayOf(true, false, true, true, false)
     println("Ejercicio N° 3")
     println("La cantidad de aprobados es: ${aprobados.filter { b -> b }.size}")
-    println(if (aprobados.all { b -> b }) "Todos aprobados." else "No todos aprobados.")
+    println(if (aprobados.all { b -> b }) "Todos aprobados." else "No todos aprobados.") // puede set .all{ it }
     println()
 
     /*
